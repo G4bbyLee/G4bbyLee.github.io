@@ -1,6 +1,37 @@
 html{
-    font-family: serif;
+    font-family: merriweather;
     background: rgb(253, 254, 246);
     margin: 0;
 }
 
+.buttons {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 150px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 2000px;
+  }
+
+.buttons-item{
+    margin: 30px 100px;
+    
+}
+
+.buttons-item:hover{
+    background-color: #edede8;
+    color: black;
+    width: 250px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
