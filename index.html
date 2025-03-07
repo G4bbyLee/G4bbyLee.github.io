@@ -6,13 +6,23 @@
   </head>
 
   <body>
-    
-    <div class="buttons">
-      <h2 href="gallery.html" class="buttons-item">gallery</h3>
-      <h2 href="#" class="buttons-item">about my dog</h3>
-      <h2 href="#" class="buttons-item">other pets</h3>
+
+    <div class="header">
+      <h1 id="top-link"> Pets Fan Page</h1>
     </div>
 
+    <div class="sub">
+      <h2> (click the images to flip)</h2>
+    </div>
+    
+    
+    <div class="buttons">
+      <a href="index.html" class="buttons-item">dog</a>
+      <a href="about.html" class="buttons-item">about my dog</a>
+      <a href="other.html" class="buttons-item">other pets</a>
+    </div>
+
+    
     
     <html lang="en">
     
@@ -221,8 +231,53 @@
         </div>
     
       </div>
+
+      <div class="grid-container">
+        <!-- First Row -->
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <!-- Front image -->
+              <img src="assets/4.jpeg" alt="Front Image 1">
+            </div>
+            <div class="back">
+              <!-- Back image -->
+              <p>dog</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <!-- Front image -->
+              <img src="assets/7.jpeg" alt="Front Image 2">
+            </div>
+            <div class="back">
+              <!-- Back image -->
+              <p>dog</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <!-- Front image -->
+              <img src="assets/13.jpg" alt="Front Image 3">
+            </div>
+            <div class="back">
+              <!-- Back image -->
+              <p>dog</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
       
       <script src="script.js"></script>
+
+      <div class="top">
+        <a href="#top-link" id="top-link">back to top</a>
+       </div>
 
       
       
