@@ -13,3 +13,5 @@ My personal site.
 - I used AI to help figure out how to flip an image when you click it to reveal something else: https://github.com/copilot/share/c87f10b6-09a4-8047-a101-ca41805e2066
 
 - I used this website to figure out how to create the sidebar: https://www.geeksforgeeks.org/create-a-fixed-sidebar-using-html-and-css/
+
+- I used AI to help figure out how to make the carousel: https://github.com/copilot/share/c87f10b6-09a4-8047-a101-ca41805e2066
